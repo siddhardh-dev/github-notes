@@ -1,0 +1,60 @@
+Git - What is Git?
+Git is a version control system(VCS - tool) which help developers to keep logs and history of each task accomplished and keep a track of changes
+by maintaining some unique id's called as commit for each entry logged.
+
+Github: It is a cloud clone or host for all our git commits maintained in some uniques set of properties named as repositories and branches.
+
+
+Git :
+Tools present locally to keep track of changes.
+Present on single system.
+Generally used by the developer using that particular system to make changes in source code and keep track of those.
+
+
+ vs 
+ Github:
+ It is cloud based hosting environment which keeps and manages git repositories.
+ Present over the internet.
+ Generally used by a community or orgainsation to help developers keeping a track of work at common place.
+ Main use of Github is in collaboration and maintaining an application from start till deployment.
+ 
+How we can connect/colloborate Git with Github:
+There are measure 2 ways in which we can connect local Git with remote Github: 
+1) Through HTTP clones or remote adding : we use our creds or setup key to authenticate each time when we try to push something to github.
+2) SSh clonning: we globally set our ssh creds and keys which sets up over user as global user and we don't need to authenticate each commit.
+
+We learned two measure ways to create or clone repositories on github:
+If it exists - we clone via either http clone or ssh clone.
+You clone that existing project to local.
+
+If no repo is there:
+we create a new repository with unique name and than add it to our local git as a remote. Below are the steps:
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/siddhardh-dev/github-notes.git
+git push -u origin main
+
+
+How to contribute to open-source on github:
+fork: we can fork publically available projects or repositories into our github and than make desired changes or fixing bugs and raising a 
+pull request against the same repo to owner.
+Forking is basically creating a local copy of exising project or repositories.
+
+
+Pushing to remote and Raising PR:
+git add .
+git commit -m "bug 399 fixed"
+git push origin main<branch name>
+
+We discussed how to create or checkout to new branch also discussed in which scenarios we create new branches:
+
+git checkout -b <branch name>
+git add .
+git commit -m "added"
+git push remote/origin <branch name>
+
+
+Raising PR: A pull request is a notification to repository owner that someone has asked to merge his/her branch to your branch. He further gets
+ choice of merging or reject the PR based upon the conditions and requirements of project by verifyin the changes.
