@@ -61,4 +61,6 @@ Raising PR: A pull request is a notification to repository owner that someone ha
 
 Git is a version control system that allows developers to track changes in their code over time, enabling collaboration and efficient management of code versions. It works locally on your machine, keeping a record of the project history and supporting features like branching and merging.
 
+here is the below what is git hub do;
+
 GitHub, on the other hand, is a cloud-based platform that hosts Git repositories and provides tools for collaboration. It allows multiple developers to share, review, and contribute to projects. GitHub offers additional features such as pull requests, issues, actions for CI/CD, and more, making it a popular choice for remote collaboration on code projects.
