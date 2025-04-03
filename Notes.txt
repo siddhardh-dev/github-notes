@@ -64,8 +64,10 @@ Git is a version control system that allows developers to track changes in their
 Tracking changes: ,maintain a history of code modifications.
 Branching and merging: Developers can create separate branches to work on features and later merge them.
 Collaboration: Teams can work together efficiently by pushing and pulling changes.
+capabilities: enables reverting to previous version if needed.
 
 GitHub, on the other hand, is a cloud-based platform that hosts Git repositories and provides tools for collaboration. It allows multiple developers to share, review, and contribute to projects. GitHub offers additional features such as pull requests, issues, actions for CI/CD, and more, making it a popular choice for remote collaboration on code projects.
 
 Remote repository: stores code online for easy access and backup.
 Collaboration: Allows multiple developers to contribute via pull requests and code reviews.
+project management: offers issue tracking and project boards.
