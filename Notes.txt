@@ -35,7 +35,7 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/siddhardh-dev/github-notes.git
 git push -u origin main
-
+ --branch 6 changes
 
 How to contribute to open-source on github:
 fork: we can fork publically available projects or repositories into our github and than make desired changes or fixing bugs and raising a 
