@@ -3,7 +3,11 @@ Git is a version control system(VCS - tool) which help developers to keep logs a
 by maintaining some unique id's called as commit for each entry logged.
 
 Github: It is a cloud clone or host for all our git commits maintained in some uniques set of properties named as repositories and branches.
+
+ --changed by branch 6
+
  -- changes by branch5
+
 
 Git :
 Tools present locally to keep track of changes.
